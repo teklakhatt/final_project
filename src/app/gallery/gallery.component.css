@@ -1,0 +1,32 @@
+img {
+    height: 200px;
+    max-width: 20%;
+    padding: 1% 1% 1% 1%;
+    vertical-align: middle;
+    
+    border-radius: 35px;
+    padding: 5px;
+     
+    }
+     
+    img:hover {
+    box-shadow: 0 0 2px 3px rgb(103, 104, 104);
+    }
+     
+    .embed {
+    overflow: hidden;
+    padding: 3% 3% 3% 3%;
+   
+    }
+    .background1 {
+        background-image: url("src/assets/images/image-folder/images/intro_pic.jpg");
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    h1{
+        text-align: center;
+        
+        
+          
+    }

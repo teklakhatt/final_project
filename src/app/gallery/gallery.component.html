@@ -1,0 +1,16 @@
+<div class="background1">
+   <h1>  მეტი ინფორმაცია! </h1>
+   
+
+    <div class="text-center">
+      <div class="gallery">
+   
+  <div class="gallery__item">
+    <div class="embed">
+  <img  *ngFor="let images of imagesArray;"
+  src="{{images.path}}"
+  (click)="showGallery(images.index)"/>  </div>
+  </div></div>
+</div></div>
+   
+  

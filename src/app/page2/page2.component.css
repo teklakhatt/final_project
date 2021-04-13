@@ -1,0 +1,6 @@
+.background1 {
+    background-image: url("src/assets/images/image-folder/images/intro_pic.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

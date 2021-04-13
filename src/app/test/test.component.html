@@ -1,0 +1,91 @@
+<div class="backgroun1">
+<div class="container">
+  <h1>Good Luck!</h1>
+ <br>
+<form class="form-inline">
+ <div class="form-group"> 
+   <label>We never</label>
+  <input type="text" class="form-control" [(ngModel)]="watch" [ngModelOptions]="{standalone: true}">
+  <label>TV together ( Watch )</label>
+ </div>
+</form>
+<form class="form-inline">
+ <div class="form-group"> 
+   <label>My mother </label>
+  <input type="text" class="form-control" [(ngModel)]="make"  [ngModelOptions]="{standalone: true}" >
+  <label>breakfast right now ( Make )</label>
+ </div>
+</form>
+<form class="form-inline">
+  <div class="form-group"> 
+    <label>I</label>
+   <input type="text" class="form-control" [(ngModel)]="talk"  [ngModelOptions]="{standalone: true}">
+   <label>with my friends at the moment ( Talk )</label>
+  </div>
+ </form>
+ <form class="form-inline">
+  <div class="form-group"> 
+    <label> I am sure that Julia  </label>
+   <input type="text" class="form-control" [(ngModel)]="drink" [ngModelOptions]="{standalone: true}" >
+   <label> coffee with John yesterday ( Drink )</label>
+  </div>
+ </form>
+ <form class="form-inline">
+  <div class="form-group"> 
+    <label>What time</label>
+   <input type="text" class="form-control" [(ngModel)]="does" [ngModelOptions]="{standalone: true}" >
+   <label>the train</label>
+   <input type="text" class="form-control" [(ngModel)]="leave" [ngModelOptions]="{standalone: true}" >
+   <label>? ( Leave )</label>
+  </div>
+ </form>
+ <form class="form-inline">
+  <div class="form-group"> 
+   <input type="text" class="form-control" [(ngModel)]="were"  [ngModelOptions]="{standalone: true}">
+   <label>coffe when I </label>
+   <input type="text" class="form-control" [(ngModel)]="call"  [ngModelOptions]="{standalone: true}">
+   <label>You? ( You, Drink / Call ) </label>
+  </div>
+ </form>
+ <form class="form-inline">
+  <div class="form-group"> 
+   <label> Don't call me tomorrow! I </label>
+   <input type="text" class="form-control" [(ngModel)]="read"  [ngModelOptions]="{standalone: true}">
+   <label> ( read )</label>
+  </div>
+ </form>
+ <form class="form-inline">
+  <div class="form-group"> 
+    <label>Every morning she </label>
+   <input type="text" class="form-control" [(ngModel)]="wake" [ngModelOptions]="{standalone: true}" >
+   <label> early and </label>
+   <input type="text" class="form-control" [(ngModel)]="get"  [ngModelOptions]="{standalone: true}">
+   <label> ready for work. ( Wake up / Get )</label>
+  </div>
+ </form>
+ <form class="form-inline">
+  <div class="form-group"> 
+    <label>Alex </label>
+   <input type="text" class="form-control" [(ngModel)]="arrive"  [ngModelOptions]="{standalone: true}">
+   <label> late . He is in traffic. ( Arrive )</label>
+  </div>
+ </form>
+ <form class="form-inline">
+  <div class="form-group"> 
+    <label> What time </label>
+   <input type="text" class="form-control" [(ngModel)]="did"  [ngModelOptions]="{standalone: true}">
+   <label>you</label>
+   <input type="text" class="form-control" [(ngModel)]="leave2"  [ngModelOptions]="{standalone: true}">
+   <label>the party? ( Leave )</label>
+  </div>
+ </form>
+ <div class="center">
+ <h4 *ngIf="count"> Your score: {{point}}/14</h4>
+</div>
+ <button *ngIf="score"type="button" class="btn btn-dark btn-lg btn-block" (click) = "check()">
+<b> Check! </b>
+</button>
+            
+ </div>
+<app-footer1></app-footer1>
+</div>
